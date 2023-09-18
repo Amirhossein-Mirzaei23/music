@@ -311,7 +311,7 @@ function nextHandeler(){
 if (bgIndex<bgSrc.length){
     let bgProp=bgIndex+1
     bgIndex++
-    background.setAttribute("style",`background-image: url(${bgSrc[bgProp-1]}); background-size: cover;background-repeat: no-repeat; background-attachment: fixed; background-position: center;)`) 
+    background.setAttribute("style",`background-image: url(${bgSrc[bgProp-1]}); background-size: cover;background-repeat: no-repeat; background-attachment: fixed; background-position: center;`) 
 console.log(bgProp)
 }else{
     bgIndex=0
